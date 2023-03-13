@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qubit-upb"
+version = "0.1.0"
+description = ""
+authors = ["vprusso <vincentrusso1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qubit_upb"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+networkx = "^3.0"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+tqdm = "^4.65.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

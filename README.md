@@ -128,7 +128,7 @@ Table updated and adapted from arXiv:1401.7920
         <td>✅</td>
         <td>✅</td>
         <td>❓</td>
-        <td>❓</td>        
+        <td><a href="https://link.springer.com/article/10.1007/s11128-020-02684-8">✅</a></td>        
 	</tr>    
     <tr>
     	<td>11</td>
