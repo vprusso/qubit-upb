@@ -2,8 +2,9 @@
 
 # Summary of UPBs
 
-Table updated and adapted from arXiv:1401.7920
+Table updated and adapted from [3].
 
+Updated entries have been tagged with a <sup>superscript</sup>.
 
 <table>
     <tr>
@@ -128,7 +129,7 @@ Table updated and adapted from arXiv:1401.7920
         <td>✅</td>
         <td>✅</td>
         <td>❓</td>
-        <td><a href="https://link.springer.com/article/10.1007/s11128-020-02684-8">✅</a></td>        
+        <td>✅<a href="https://link.springer.com/article/10.1007/s11128-020-02684-8"><sup>1</sup></a></td>        
 	</tr>    
     <tr>
     	<td>11</td>
@@ -236,7 +237,7 @@ Table updated and adapted from arXiv:1401.7920
         <td>❌</td>
         <td>❌</td>
         <td>❌</td>
-        <td><a href="https://arxiv.org/abs/1709.01232">❌</a></td>
+        <td>❌<a href="https://link.springer.com/article/10.1007/s11128-017-1791-8"><sup>2</sup></a></td>       
         <td>✅</td>
         <td>✅</td>        
 	</tr>    
@@ -292,7 +293,7 @@ Table updated and adapted from arXiv:1401.7920
         <td>❌</td>
         <td>❌</td>
         <td>❌</td>
-        <td><a href="https://arxiv.org/abs/1709.01232">❌</a></td>
+        <td>❌<a href="https://link.springer.com/article/10.1007/s11128-017-1791-8"><sup>2</sup></a></td>        
         <td>✅</td>        
 	</tr>    
     <tr>
@@ -348,7 +349,7 @@ Table updated and adapted from arXiv:1401.7920
         <td>❌</td>
         <td>❌</td>
         <td>❌</td>
-        <td><a href="https://arxiv.org/abs/1709.01232">❌</a></td>        
+        <td>❌<a href="https://link.springer.com/article/10.1007/s11128-017-1791-8"><sup>2</sup></a></td>   
 	</tr>    
     <tr>
     	<td>124</td>
@@ -383,4 +384,14 @@ Table updated and adapted from arXiv:1401.7920
         <td>❌</td>
         <td>✅</td>        
 	</tr>    
-</table>​
+</table>
+
+## References
+
+[1] Wang, Kai, and Lin Chen. <a href="https://link.springer.com/article/10.1007/s11128-020-02684-8">"The construction of 7-qubit unextendible product bases of size ten."</a> Quantum Information Processing 19 (2020): 1-17.
+
+[2] Chen, Lin, and Dragomir Ž. Đoković. <a href="https://link.springer.com/article/10.1007/s11128-017-1791-8">"Nonexistence of n-qubit unextendible product bases of size 2^ n-5 2 n-5."</a> Quantum Information Processing 17 (2018): 1-10.
+
+[3] Johnston, Nathaniel. <a href="https://iopscience.iop.org/article/10.1088/1751-8113/47/42/424034">The structure of qubit unextendible product bases."</a> Journal of Physics A: Mathematical and Theoretical 47.42 (2014): 424034.
+
+
