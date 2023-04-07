@@ -16,6 +16,10 @@ six = "^1.16.0"
 python-sat = "^0.1.8.dev2"
 scipy = "^1.10.1"
 pandas = "^1.5.3"
+pulp = "^2.7.0"
+mip = "^1.15.0"
+gurobipy = "^10.0.1"
+ortools = "^9.6.2534"
 
 
 [build-system]
