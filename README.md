@@ -1,6 +1,16 @@
-# qubit upb
+# upb
 
-# Summary of UPBs
+**Question**: *In what dimensions do there exist qubit unextendible product bases (UPBs)?*
+
+## Usage
+
+The `upb` package requires [`uv`](https://docs.astral.sh/uv/) to be installed. Once installed, you can run the following command:
+
+```bash
+uv run python main.py
+```
+
+## Summary of UPBs
 
 Table updated and adapted from [3].
 
@@ -140,7 +150,7 @@ Updated entries have been tagged with a <sup>superscript</sup>.
         <td>❌</td>
         <td>❓</td>
         <td>❓</td>
-        <td>❓</td>        
+        <td>✅<a href="https://arxiv.org/abs/2102.11553"><sup>4</sup></a></td>
 	</tr>    
     <tr>
     	<td>12</td>
@@ -394,4 +404,4 @@ Updated entries have been tagged with a <sup>superscript</sup>.
 
 [3] Johnston, Nathaniel. <a href="https://iopscience.iop.org/article/10.1088/1751-8113/47/42/424034">The structure of qubit unextendible product bases."</a> Journal of Physics A: Mathematical and Theoretical 47.42 (2014): 424034.
 
-
+[4] Sun, Yize and Chen Lin. <a href="https://arxiv.org/abs/2102.11553">The construction and local distinguishability of multiqubit unextendible product bases."</a> arXiv:2102.11553 (2021). 
