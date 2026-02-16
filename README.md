@@ -12,396 +12,78 @@ uv run python main.py
 
 ## Summary of UPBs
 
-Table updated and adapted from [3].
+# Classification of Qubit Unextendible Product Bases
 
-Updated entries have been tagged with a <sup>superscript</sup>.
+Columns p=1 through p=8 are **fully resolved**. The only open cases are in p=9 (8 unknown entries).
 
-<table>
-    <tr>
-        <th colspan="10">Number of qubits</th>
-    </tr>
-    <tr>
-        <th>Size</th>
-        <td></td>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-        <td>7</td>
-    </tr>
-    <tr>
-    	<td>1</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>        
-	</tr>
-    <tr>
-    	<td>2</td>
-        <td></td>
-        <td>✅</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>        
-	</tr>    
-    <tr>
-    	<td>3</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>        
-	</tr>    
-    <tr>
-    	<td>4</td>
-        <td></td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>        
-	</tr>    
-    <tr>
-    	<td>5</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>        
-	</tr>    
-    <tr>
-    	<td>6</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>❌</td>
-        <td>❌</td>        
-	</tr>    
-    <tr>
-    	<td>7</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>        
-	</tr>    
-    <tr>
-    	<td>8</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>9</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>❌</td>        
-	</tr>    
-    <tr>
-    	<td>10</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>❓</td>
-        <td>✅<a href="https://link.springer.com/article/10.1007/s11128-020-02684-8"><sup>1</sup></a></td>        
-	</tr>    
-    <tr>
-    	<td>11</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❓</td>
-        <td>❓</td>
-        <td>✅<a href="https://arxiv.org/abs/2102.11553"><sup>4</sup></a></td>
-	</tr>    
-    <tr>
-    	<td>12</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>13</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>❓</td>
-        <td>❓</td>        
-	</tr>    
-    <tr>
-    	<td>14</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>❓</td>        
-	</tr>    
-    <tr>
-    	<td>15</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>❓</td>        
-	</tr>    
-    <tr>
-    	<td>16</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>17-18</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>19</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>❓</td>        
-	</tr>    
-    <tr>
-    	<td>20-26</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>27</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌<a href="https://link.springer.com/article/10.1007/s11128-017-1791-8"><sup>2</sup></a></td>       
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>28</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>29-31</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>32</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>33-58</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>59</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌<a href="https://link.springer.com/article/10.1007/s11128-017-1791-8"><sup>2</sup></a></td>        
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>60</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>61-63</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>64</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>65-122</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>123</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌<a href="https://link.springer.com/article/10.1007/s11128-017-1791-8"><sup>2</sup></a></td>   
-	</tr>    
-    <tr>
-    	<td>124</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>        
-	</tr>    
-    <tr>
-    	<td>125-127</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>        
-	</tr>    
-    <tr>
-    	<td>128</td>
-        <td></td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>❌</td>
-        <td>✅</td>        
-	</tr>    
-</table>
+| Size | p=1 | p=2 | p=3 | p=4 | p=5 | p=6 | p=7 | p=8 | p=9 |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 1 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
+| 2 | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
+| 3 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
+| 4 | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: |
+| 5 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
+| 6 | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: |
+| 7 | :x: | :x: | :x: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
+| 8 | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: |
+| 9 | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: |
+| 10 | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: [^7] | :white_check_mark: [^1] | :x: | :white_check_mark: [^6] |
+| 11 | :x: | :x: | :x: | :x: | :white_check_mark: [^7] | :white_check_mark: [^7] | :white_check_mark: [^4] | :white_check_mark: [^6] | :x: |
+| 12 | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 13 | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: [^7] | :white_check_mark: [^7] | :white_check_mark: | :question: |
+| 14 | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: [^7] | :white_check_mark: | :question: |
+| 15 | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: [^7] | :white_check_mark: | :question: |
+| 16 | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 17-18 | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :question: |
+| 19 | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: [^7] | :white_check_mark: | :question: |
+| 20-21 | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :question: |
+| 22-26 | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 27 | :x: | :x: | :x: | :x: | :x: [^2] | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 28 | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 29-31 | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 32 | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 33-58 | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 59 | :x: | :x: | :x: | :x: | :x: | :x: [^2] | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 60 | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 61-63 | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 64 | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 65-122 | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 123 | :x: | :x: | :x: | :x: | :x: | :x: | :x: [^2] | :white_check_mark: | :white_check_mark: |
+| 124 | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 125-127 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: |
+| 128 | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 129-250 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: |
+| 251 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: [^2] | :white_check_mark: |
+| 252 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: |
+| 253-255 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: |
+| 256 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: |
+| 257-506 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: |
+| 507 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: [^2] |
+| 508 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: |
+| 509-511 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
+| 512 | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :white_check_mark: |
+
+Entries without footnotes were established by Johnston [[3]](#ref3). A :white_check_mark: indicates a UPB of the given size exists, :x: indicates no such UPB exists, and :question: indicates existence is unknown.
 
 ## References
 
-[1] Wang, Kai, and Lin Chen. <a href="https://link.springer.com/article/10.1007/s11128-020-02684-8">"The construction of 7-qubit unextendible product bases of size ten."</a> Quantum Information Processing 19 (2020): 1-17.
+<a id="ref1"></a>[1] Wang, Kai, and Lin Chen. ["The construction of 7-qubit unextendible product bases of size ten."](https://link.springer.com/article/10.1007/s11128-020-02684-8) Quantum Information Processing 19 (2020): 1-17.
 
-[2] Chen, Lin, and Dragomir Ž. Đoković. <a href="https://link.springer.com/article/10.1007/s11128-017-1791-8">"Nonexistence of n-qubit unextendible product bases of size 2^ n-5 2 n-5."</a> Quantum Information Processing 17 (2018): 1-10.
+<a id="ref2"></a>[2] Chen, Lin, and Dragomir Z. Djokovic. ["Nonexistence of n-qubit unextendible product bases of size 2^n-5."](https://link.springer.com/article/10.1007/s11128-017-1791-8) Quantum Information Processing 17 (2018): 1-10.
 
-[3] Johnston, Nathaniel. <a href="https://iopscience.iop.org/article/10.1088/1751-8113/47/42/424034">The structure of qubit unextendible product bases."</a> Journal of Physics A: Mathematical and Theoretical 47.42 (2014): 424034.
+<a id="ref3"></a>[3] Johnston, Nathaniel. ["The structure of qubit unextendible product bases."](https://iopscience.iop.org/article/10.1088/1751-8113/47/42/424034) Journal of Physics A: Mathematical and Theoretical 47.42 (2014): 424034.
 
-[4] Sun, Yize and Chen Lin. <a href="https://arxiv.org/abs/2102.11553">The construction and local distinguishability of multiqubit unextendible product bases."</a> arXiv:2102.11553 (2021). 
+<a id="ref4"></a>[4] Sun, Yize and Chen, Lin. ["The construction and local distinguishability of multiqubit unextendible product bases."](https://arxiv.org/abs/2102.11553) arXiv:2102.11553 (2021).
+
+<a id="ref5"></a>[5] Bennett, Charles H., et al. ["Unextendible product bases and bound entanglement."](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.82.5385) Physical Review Letters 82.26 (1999): 5385-5388.
+
+<a id="ref6"></a>[6] Johnston, Nathaniel. ["The minimum size of qubit unextendible product bases."](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TQC.2013.93) Proceedings of TQC 2013, LIPIcs 22 (2013): 93-105.
+
+<a id="ref7"></a>[7] Chen, Lin, and Dragomir Z. Djokovic. ["Multiqubit UPB: The method of formally orthogonal matrices."](https://doi.org/10.1088/1751-8121/aac53b) Journal of Physics A 51.26 (2018): 265302.
+
+[^1]: Wang and Chen (2020)
+[^2]: Chen and Djokovic, nonexistence (2018)
+[^4]: Sun and Chen (2021)
+[^6]: Johnston (2013)
+[^7]: Chen and Djokovic, formally orthogonal matrices (2018)
+
