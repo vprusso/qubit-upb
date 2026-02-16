@@ -10,7 +10,7 @@ The `upb` package requires [`uv`](https://docs.astral.sh/uv/) to be installed. O
 uv run python main.py
 ```
 
-## Summary of UPBs
+# Classification of Qubit Unextendible Product Bases
 
 Columns p=1 through p=8 are **fully resolved**. The only open cases are in p=9 (8 unknown entries: s=13, 14, 15, 17, 18, 19, 20, 21).
 
@@ -50,18 +50,18 @@ Columns p=1 through p=8 are **fully resolved**. The only open cases are in p=9 (
 | 124 | ❌[^3] | ❌[^3] | ❌[^3] | ❌[^3] | ❌[^3] | ❌[^3] | ✅[^3] | ✅[^6][^7] | ✅[^3] |
 | 125-127 | ❌[^3] | ❌[^3] | ❌[^3] | ❌[^3] | ❌[^3] | ❌[^3] | ❌[^3] | ✅[^6][^7] | ✅[^3] |
 | 128 | ❌[^3] | ❌[^3] | ❌[^3] | ❌[^3] | ❌[^3] | ❌[^3] | ✅[^3] | ✅[^6][^7] | ✅[^3] |
-| 129-250 | | | | | | | | ✅[^6][^7] | ✅[^3] |
-| 251 | | | | | | | | ❌[^2] | ✅[^3] |
-| 252 | | | | | | | | ✅[^6][^7] | ✅[^3] |
-| 253-255 | | | | | | | | ❌[^6][^7] | ✅[^3] |
-| 256 | | | | | | | | ✅[^6][^7] | ✅[^3] |
-| 257-506 | | | | | | | | | ✅[^3] |
-| 507 | | | | | | | | | ❌[^2] |
-| 508 | | | | | | | | | ✅[^3] |
-| 509-511 | | | | | | | | | ❌[^3] |
-| 512 | | | | | | | | | ✅[^3] |
+| 129-250 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅[^6][^7] | ✅[^3] |
+| 251 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌[^2] | ✅[^3] |
+| 252 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅[^6][^7] | ✅[^3] |
+| 253-255 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌[^6][^7] | ✅[^3] |
+| 256 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅[^6][^7] | ✅[^3] |
+| 257-506 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅[^3] |
+| 507 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌[^2] |
+| 508 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅[^3] |
+| 509-511 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌[^3] |
+| 512 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅[^3] |
 
-A ✅ indicates a UPB of the given size exists, ❌ indicates no such UPB exists, and ❓ indicates existence is unknown. Empty cells indicate the size exceeds 2^p and is therefore trivially impossible.
+A ✅ indicates a UPB of the given size exists, ❌ indicates no such UPB exists, and ❓ indicates existence is unknown. Cells for sizes exceeding 2^p are ❌ trivially (size exceeds Hilbert space dimension).
 
 ## References
 
@@ -78,3 +78,4 @@ A ✅ indicates a UPB of the given size exists, ❌ indicates no such UPB exists
 [^6]: Johnston, Nathaniel. ["The minimum size of qubit unextendible product bases."](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TQC.2013.93) Proceedings of TQC 2013, LIPIcs 22 (2013): 93-105.
 
 [^7]: Chen, Lin, and Dragomir Z. Djokovic. ["Multiqubit UPB: The method of formally orthogonal matrices."](https://doi.org/10.1088/1751-8121/aac53b) Journal of Physics A 51.26 (2018): 265302.
+
