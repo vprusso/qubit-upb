@@ -2,6 +2,19 @@
 
 **Question**: *In what dimensions do there exist qubit unextendible product bases (UPBs)?*
 
+A set $\mathcal{S} = \{ \}$ is an *unextendible product basis (UPB) of size $n$ on $p$ qubits if:
+
+1. Each $\ket{\psi_i}$ is a product state: $\ket{\psi_j} = \ket{\phi_j^{(1)}},
+   \otimes \cdots \otimes \ket{\phi_j^{(p)}}$ where $\ket{\phi_j^{(i)}} \in
+\mathbb{C}^2$ for each qubit $i$.
+
+2. The states are mutually orthogonal: $\langle \psi_{j_1} | \psi_{j_2} \rangle
+   = 0$ for all $j_1 \neq j_2$.
+
+3. The set is unextendible: there is no product state $\ket{\psi} \in
+   \mathbb{C^2}^{\otimes p}$ such that $\langle \psi | \psi_j \rangle = 0$ for
+all $j \in \{1, \ldots, n\}$. 
+
 
 # Classification of Qubit Unextendible Product Bases
 
