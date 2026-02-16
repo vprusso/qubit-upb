@@ -1,14 +1,7 @@
-# upb
+# qubit-upb
 
 **Question**: *In what dimensions do there exist qubit unextendible product bases (UPBs)?*
 
-## Usage
-
-The `upb` package requires [`uv`](https://docs.astral.sh/uv/) to be installed. Once installed, you can run the following command:
-
-```bash
-uv run python main.py
-```
 
 # Classification of Qubit Unextendible Product Bases
 
